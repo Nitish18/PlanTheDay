@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ard_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/plan_l1"
+        android:layout_weight="60"
+        android:orientation="vertical"
+        android:weightSum="100"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plan_tv1"
+                    android:text="Today"
+                    android:textSize="30dp"
+                    android:padding="9dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plan_tv2"
+                    android:padding="5dp"
+                    android:text="This kkkkk kl"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="8dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="horizontal"
+                >
+
+
+
+                <Button
+                    android:id="@+id/plan_bt1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="ADD"
+                    android:padding="2dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#448AFF"
+                    android:textStyle="normal"
+                   android:textColor="#ffffff"
+                    />
+
+                <Button
+                    android:id="@+id/plan_bt2"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="FINISH"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:background="#448AFF"
+                    android:textStyle="normal"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ffffff"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:orientation="horizontal"
+            >
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Add new Task"
+                    android:textColor="#3F51B5"
+                    android:textColorHint="#448AFF"
+                    android:textSize="20dp"
+                    android:id="@+id/plan_et1"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:layout_gravity="center"
+                    />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/plan_l2"
+        android:layout_weight="40"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="45"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            >
+
+            <ListView
+                android:id="@+id/task_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="45">
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
